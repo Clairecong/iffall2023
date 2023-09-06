@@ -1,0 +1,50 @@
+.Peter {
+   font-weight:bold; font-family: sans-serif; color: white;font-size:17px;
+}
+
+.line {
+    color:white; font-weight: light; font-family: sans-serif; font-size: 15px;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    color:aliceblue
+  }
+
+body{
+    background-image: url(https://www.watervillecreates.org/wp-content/uploads/2022/09/di9t2YVpWDKuUtYkrm10yVld50x-scaled-e1664299257479.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#div {
+    background-color: rgb(54, 57, 56); 
+    opacity: .9; 
+    padding: 2.5%; 
+    border:2px solid rgb(55, 55, 55);
+}
+
+.borderline {
+    border-color: aliceblue;
+    border-bottom: 1px solid; 
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+
+.actor {
+   
+   font-size:12px; 
+   font-family: sans-serif;
+   color:rgb(205, 201, 201)
+}
+
+.scene {
+   text-align: center; 
+   font-family: system-ui; 
+   color:rgb(200, 246, 203); 
+   font-size:30px"
+}
