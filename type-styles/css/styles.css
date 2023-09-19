@@ -1,0 +1,107 @@
+html {
+    font-size: 18px;
+    margin: 75px 200px;
+}
+
+header{
+    margin-bottom: 100px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+ 
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    margin: 8px;
+    background-color: #fefaeddc;
+}
+
+h2 {
+    color: #85634b; 
+    font-size: 1.20em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h3 {
+    color: #b2956e97; 
+    font-size: 0.7rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.FontWeight .Normal {
+    font-weight: normal;
+}
+
+.FontWeight .Bold {
+    font-weight: bold;
+}
+
+.FontStyle .Normal {
+    font-style: normal;
+}
+
+.FontStyle .Italic {
+    font-style: italic;
+}
+
+.LetterSpacing .Normal {
+    letter-spacing: normal;
+}
+
+.LetterSpacing .Wide {
+    letter-spacing: 0.3em;
+}
+
+.LetterSpacing .Narrow {
+    letter-spacing: -0.06em;
+}
+
+.TextDecoration .None {
+    text-decoration: none;
+}
+
+.TextDecoration .Underline {
+    text-decoration: underline;
+}
+
+.TextDecoration .LineThrough {
+    text-decoration: line-through;
+}
+
+.TextDecoration .Overline {
+    text-decoration: overline;
+}
+ 
+.TextTransform .None {
+    text-transform: none;
+}
+
+.TextTransform .Uppercase {
+    text-transform: uppercase;
+}
+
+.TextTransform .Lowercase {
+    text-transform: lowercase;
+}
+
+.TextTransform .Capitalize {
+    text-transform: capitalize;
+}
