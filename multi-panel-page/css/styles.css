@@ -1,0 +1,141 @@
+html {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header {
+    background-image: url(https://e7.pngegg.com/pngimages/844/568/png-clipart-blue-watercolor-background-ink-abstract.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    color: aliceblue
+}
+
+#firstsection {
+    background-color: #ffffff;
+}
+
+#secondsection {
+    background-color: #5d89a1;
+}
+
+#thirdsection {
+    background-color:  #eef7ff;
+}
+
+#lastsection {
+    font-size: 18px;
+    padding-left: 262px;
+    padding-top: 40.5px;
+    background-color: #5d89a1;
+    padding-bottom: 40px;
+    font-size: 26px;
+    margin:auto;
+}
+
+footer p {
+        margin: auto;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: -8px;
+    margin-bottom: 33px;
+}
+
+h4 {
+    text-align: left;
+    font-size: 20px;
+    margin-top: -2px;
+}
+
+li div p {
+    text-align: left;
+    margin-top: -19px;
+    padding-right: 21px;
+}
+
+.column_container {
+    width: 960px;
+    margin: auto;
+    padding-top: 48px;
+}
+
+header .column_container {
+    padding-top: 152px;
+    padding-bottom: 188px;
+    
+}
+
+#firstsection .column_container {
+    padding-bottom: 57px;
+}
+
+#secondsection .column_container {
+    padding-bottom: 21px;
+}
+
+#thirdsection .column_container {
+    padding-bottom: 99px;
+}
+
+#thirdsection div h3 {
+    margin-top: -6px;
+}
+
+#thirdsection div p {
+    font-size: 26px;
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+#bigPhoto {
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin: 0rem 0rem 1.5rem 2.5rem;
+}
+
+#smallPhoto {
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding-right: 12px;
+}
+
+p {
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+.grid {
+    padding: 0;
+}
+
+.grid li {
+    display: block;
+    width: 50%;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.using-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
