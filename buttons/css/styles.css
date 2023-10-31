@@ -1,0 +1,338 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a#btn_1 {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #474747;
+    border: 2px solid #252525;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_1:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #aaaaaa;
+}
+
+a#btn_2 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_2:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_3 {
+    display: block;
+    width: 100px;
+    height: 95px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #ffffff;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all 1s;
+    transform-origin: center;
+}
+
+a#btn_3:hover {
+    background: linear-gradient(135deg, #2ebfec 0%, #28a5cb 100%);
+}
+
+a#btn_3:hover .fa-lyft{
+    scale: 1.2;
+    transition: all .5s;
+}
+
+a#btn_4 {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .5s;
+}
+
+a#btn_4:hover {
+    color: #006eff;
+    height: 95px;
+    transform: scale(1.5);
+}
+
+a#btn_4:hover:before {
+    width: 100%;
+    height: 100%;
+    position: center;
+    left: 0;
+    top: 0;
+}
+
+a#btn_5 {
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 23px;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    color: #000;
+    text-align: center;
+    transition: all .5s;
+}
+
+a#btn_5:hover {
+    background-color: #009a2d;
+    color: #fff;
+}
+
+a#btn_5:before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #ffffff;
+    transition: all .7s;
+}
+
+a#btn_6 {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: rgb(189, 189, 189);
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_6:hover {
+    background: linear-gradient(135deg, #ffffff 0%, #000000 100%);
+    scale: 1.2;
+    transition: all .5s;
+}
+
+.nike-button {
+    display: flex;
+    height: 60px;
+    width: 100px;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 90px;
+    margin-left: 65px;
+    padding: 10px;
+    background-color: #000000;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    transition: background-color 0.5s, border-color 0.5s;
+}
+
+.nike-button:hover {
+    background-color: #e0e0e0;
+    border-color: #ccc;
+}
+
+.nike-logo {
+    width: 40px;
+    height: 40px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png) no-repeat center/contain;
+    margin-bottom: 10px;
+}
+
+.nike-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+a#btn_8 {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 75px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+a#btn_8 .fa-tree {
+    font-size: 100px;
+    color: green;
+    display: block;
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+a#btn_8 span {
+    opacity: 0;
+    display: block;
+    position: relative;
+    color: #036A36;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+a#btn_8:hover .fa-tree {
+    transform: translateY(-50px);
+    opacity: 0;
+}
+
+a#btn_8:hover span {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+a#btn_9 {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_9:hover {
+    color: #fff;
+    animation: shake 0.3s;
+    text-shadow: 0 0 10px #000000, 0 0 50px #000000, 0 0 20px #000000;
+}
+
+@keyframes shake {
+    0% { transform: translate(0); }
+    20% { transform: translate(-2px, 0); }
+    40% { transform: translate(2px, 0); }
+    60% { transform: translate(-2px, 0); }
+    80% { transform: translate(2px, 0); }
+    100% { transform: translate(0); }
+}
+
+a#btn_10 {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 80px;
+    background-color: rgba(255, 255, 255, 0.304);
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    transition: all 0.2s;
+}
+
+a#btn_10:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color:white; 
+    transition: all 0.5s;
+}
+
+a#btn_10:hover {
+    color: #ffffff;
+    background: linear-gradient(135deg, #ffa600dc 0%, #ff0062e1 100%);
+    animation: hoverAnimation 0.7s ease infinite;
+}
+
+@keyframes hoverAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+a#btn_10:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    
+}
